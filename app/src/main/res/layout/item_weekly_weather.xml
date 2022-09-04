@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="3dp">
+
+        <LinearLayout
+            android:id="@+id/item_title_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/item_weekly_weather_icon"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="centerCrop"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/item_weekly_weather_day"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="12dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/calibri"
+                android:maxLines="1"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="Today" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item_day_weather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_title_holder"
+            android:layout_margin="12dp"
+            android:orientation="horizontal"
+            android:padding="6dp"
+            android:visibility="visible"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/item_weekly_weather_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/calibri"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="Today" />
+
+            <TextView
+                android:id="@+id/item_weekly_weather_feels_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/calibri"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="Today" />
+
+            <TextView
+                android:id="@+id/item_weekly_weather_max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:fontFamily="@font/calibri"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="Today" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>
