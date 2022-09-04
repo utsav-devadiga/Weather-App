@@ -1,4 +1,4 @@
-# WeatherApp-Android
+# Weather App 
 ⛈ Weather app with OpenWeatherMap API.  Here i demonstrate the use of Modern Android development tools - (Kotlin, Architecture Components, MVVM, LiveData, Material Components)
 
 ## Built With 🛠
@@ -22,27 +22,6 @@ This app uses [***MVVM (Model View View-Model)***](https://developer.android.com
 
 ![](https://developer.android.com/topic/libraries/architecture/images/final-architecture.png)
 
-
-## Contributing
-
-Please fork this repository and contribute back using
-[pull requests](https://github.com/utsav-devadiga/Weather-App/pulls).
-
-Any contributions, large or small, major features, bug fixes, are welcomed and appreciated
-but will be thoroughly reviewed .
-
-### Contact - Let's become friend
-- [Twitter](https://twitter.com/utsav_devadiga)
-- [Github](https://github.com/utsav-devadiga)
-
-<p>
-Don't forget to star ⭐ the repo it motivates me to share more open source
-</p>
-
-## Donation
-If this project help you reduce time to develop, you can give me a cup of coffee :) 
-
-<a href="https://www.buymeacoffee.com/mXUuDW7" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ## License
 
